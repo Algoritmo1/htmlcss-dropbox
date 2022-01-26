@@ -23,7 +23,7 @@
 }
 
 nav.header{
-    width: 100%;
+    width: calc(100% / 2);
     height: 60px;
     line-height: 60px;
     padding-left: 10px;
@@ -38,25 +38,26 @@ div.nav-left ul.command-left-nav li{
 }
 
 div.nav-left{
-    margin-left: 100px;
+    text-align: left;
 }
 
 div.nav-left .logo-top-left{
-    vertical-align: middle;
+    margin-top: 30px;
+    vertical-align: baseline;
 }
 
-/* .space-nav{
-    width: 150px;
-    height: 100%;
-    background-color: tomato;
-} */
+.div.nav-right{
+    text-align: right;
+    background-color: darkcyan;
+}
 
 div.nav-right ul.command-right-nav li{
-    /* text-align: right;
+   /* text-align: right;
     list-style: none;*/
     display: inline; 
     padding-right: 10px;
-    margin-left: 40px;
+    margin-left: 40px; 
+   
 }
 
 .btn-avanti{
@@ -92,9 +93,9 @@ main .jumbo{
     height: 300px;
 }
 
-.jumbo .btn-blue{
+.btn-blue{
     text-align: center;
-    width: 250px;
+    width: 200px;
     height: 30px;
     color: white;
     padding: 5px;
@@ -104,6 +105,7 @@ main .jumbo{
 .btn-top{
     margin-bottom: 20px;
 }
+
 p{
     margin-bottom: 20px;
 }
@@ -135,16 +137,17 @@ h2{
 }
 
 .wrapper-column{
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     background-color: coral;
 }
 
 .cont-col{
-    width: 250px;
+    width: 280px;
     height: 500px;
-    margin: 0 20px 20px 20px;
-    background-color: chartreuse;
+    border: 1px solid lightskyblue;
+    margin-top: 80px; 
+    background-color: rgb(226, 195, 17);
 }
 
 .int-col{
@@ -153,3 +156,31 @@ h2{
     text-align: center;
 }
 
+
+.span-int-col{
+    margin: 10px 10px 10px 0px;
+}
+/* .center-col{
+    margin: 80px 15px 20px 15px;
+    
+} */
+
+.btn-column{
+    margin: 10px auto;
+}
+
+.col-orizzontale{
+    width: 100%;
+    height: 200px;
+    background-color: darkkhaki;
+}
+
+footer{
+    width: 100%;
+    height: 550px; 
+    background-color: darkgreen;
+}
+.cont-footer{
+    width: 80%;
+    margin: 0 auto;  
+}
